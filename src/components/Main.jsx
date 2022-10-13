@@ -23,7 +23,6 @@ const Main = () => {
                 setlistElements(data)
             }
         );
-
     }
 
     const next = async () => {
