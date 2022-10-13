@@ -11,7 +11,7 @@ const Main = () => {
     useEffect(() => {
         getData(start, end);
     })
-    
+
 
     const getData = async (start, end) => {
         const res = await fetch(`https://jsonplaceholder.typicode.com/photos?_start=${start}&_limit=${end}`).then(
@@ -23,7 +23,6 @@ const Main = () => {
                 setlistElements(data)
             }
         );
-
 
     }
 
