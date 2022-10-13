@@ -41,6 +41,7 @@ const Main = () => {
         }
     }
 
+    
     const back = async () => {
         if (start === 0) {
             return
